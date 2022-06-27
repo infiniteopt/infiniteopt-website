@@ -1,0 +1,57 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+
+
+# Files excluded from Jekyll builds
+exclude:
+- README.md
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- CNAME
+- Gemfile
+- Gemfile.lock
+- minima-theme.gemspec
+- .jekyll-cache
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Jekyll settings
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# email: your-email@example.com
+# twitter_username: jekyllrb
+# github_username:  jekyll
+encoding: utf-8 # Make sure the encoding is right
+lang: en-US # Set the site language
+title: "InfiniteOpt" # Site name or title, also used in jekyll-seo-tag
+logo: "/assets/full_logo.png" # Site logo, also used in jekyll-seo-tag
+description: "InfiniteOpt is an organization for engineering optimization solutions for infinite-dimensional problems." # Site description and default description, also used in jekyll-seo-tag
+url: "https://infiniteopt.github.io" # Site url, also used in jekyll-seo-tag
+baseurl: ""
+
+
+
