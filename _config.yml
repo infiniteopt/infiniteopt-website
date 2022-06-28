@@ -49,7 +49,7 @@ encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
 title: "InfiniteOpt" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/full_logo.png" # Site logo, also used in jekyll-seo-tag
-description: "InfiniteOpt is an organization for engineering optimization solutions for infinite-dimensional problems." # Site description and default description, also used in jekyll-seo-tag
+description: "An organization for engineering optimization solutions for infinite-dimensional problems." # Site description and default description, also used in jekyll-seo-tag
 url: "https://infiniteopt.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 
