@@ -29,6 +29,9 @@ theme: 'minima'
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-asciidoc
+  - jekyll-gist
+  - jekyll-paginate
 
 # Jekyll settings
 sass:
@@ -41,17 +44,32 @@ excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
+#      _____ _ __          _____      __  __  _
+#     / ___/(_) /____     / ___/___  / /_/ /_(_)___  ____ ______
+#     \__ \/ / __/ _ \    \__ \/ _ \/ __/ __/ / __ \/ __ `/ ___/
+#    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  )
+#   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/
+#                                                 /____/
 # email: your-email@example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
 title: "InfiniteOpt" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/full_logo.png" # Site logo, also used in jekyll-seo-tag
+slogan: 'A lab with infinite oppurtunities' # The slogan describes your website and is used on homepage in <title> and other important places
+# logo: "/assets/full_logo.png" # Site logo, also used in jekyll-seo-tag
 description: "An organization for engineering optimization solutions for infinite-dimensional problems." # Site description and default description, also used in jekyll-seo-tag
 url: "https://infiniteopt.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 
+# This is for the editing function in _/includes/improve_content
+# Leave it empty if your site is not on GitHub/GitHub Pages
+# improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 
-
+# This URL points directly to the images directory making
+# things easier to link to images in posts and templates. It needs a slash at the end.
+#
+# Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
+# Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
+#
+# urlimg: 'https://phlow.github.io/feeling-responsive/images/'
