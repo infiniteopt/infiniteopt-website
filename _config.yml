@@ -25,7 +25,7 @@ exclude:
 - .jekyll-cache
 
 # Build settings
-theme: minima
+theme: 'minima'
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -33,7 +33,7 @@ plugins:
 # Jekyll settings
 sass:
   style: compressed # Style compression
-permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+permalink: none  # Permalink style (/:categories/:title:output_ext)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 
 # Site settings
